@@ -1,0 +1,37 @@
+VERSION X.Y.Z
+    X = MAJOR release
+    Y = MINOR release
+    Z = Fixes to release
+
+
+BUILD
+    the actual build number. You can can many builds before a release.
+
+FIXES
+    bugs to documented features
+
+FEATURES
+    documented features/funtionality  and enhancement
+TASKS
+    are assigned to team members to work. TASKS can be fixes, features, etc. All work must have a task associated with it.
+
+SUB-TASKS
+    tasks may have may parts that require other team members to perform before the task is complete
+        UI
+        DB
+        INFRA
+        API
+        TESTING
+NAMEING CONVENTIONS
+    lowerUpper - all but things to be visible outside of pakage
+    UpperUpper - exportable 
+    do not use - or _ in names
+    comment every function/method/pakage/line
+    comments should have the following
+        /***
+           COMMENT
+           INPUT
+           OUTPUT
+        ***/
+    developer must create unit test *_test.go for everything they develop
+
